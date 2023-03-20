@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.building-image{
+   background: url(./images/buildingImage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   width: auto;
+   height: 37rem;
+    
+}
+.road-image{
+    background: url(./images/./roadImages.jpg);
+    background-size: cover;
+    height: 8.8rem;
+    overflow: hidden;
+}
+.car-image{
+    height: 10rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.start-stop{
+    margin-top: 2rem;
+    background: burlywood;
+    height: 3rem;
+    color: brown;
+    width: 8rem;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
